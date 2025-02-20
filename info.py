@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24817837'))
 API_HASH = environ.get('API_HASH', 'acd9f0cc6beb08ce59383cf250052686')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7851825233:AAHFQg4yNZ1_HJO0xgqCdISogLmRw8r8P9M')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7740931841:AAGHNZKo0wprriarZzkuWlwLK3DOVadyxKc')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7428552084').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/kingcey") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002376378205'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/AntiFlix_d')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002491166640').split()]
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+gFAyr2-T0H40OTQ0')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002263682572 -1002488233862').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ethan:Ethan123@telegrambots.lva9j.mongodb.net/?retryWrites=true&w=majority&appName=TELEGRAMBOTS")
@@ -34,14 +34,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002265513823')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002165407793'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002463797892') # If anyone sends a request message to your bot, you will get it in this channel.
+auth_channel = environ.get('AUTH_CHANNEL', '-1002278892364')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002276880389'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002376378205') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002278892364')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/AntiFlix_d') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/BotZFlixSupport') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Otaku")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/oraku")
@@ -57,7 +57,7 @@ TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
+LANGUAGES = ["hindi", "english", "French"]
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
 YEARS = [f'{i}' for i in range(2025, 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
@@ -69,12 +69,12 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
-REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/db-.jpg https://envs.sh/dbV.jpg https://envs.sh/dCe.jpg https://envs.sh/dCb.jpg https://envs.sh/dCP.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/E3H.jpg')
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/JNK.jpg")).split() 
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/HzQ.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/E3H.jpg'))
+REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡", "🤣", "🤪"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
